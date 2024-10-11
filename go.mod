@@ -1,4 +1,4 @@
-module github.com/ilurusheshasai/go-react-kube-webapp
+module github.com/Ilurusheshasai/go-react-kube-webapp
 
 go 1.23.2
 
