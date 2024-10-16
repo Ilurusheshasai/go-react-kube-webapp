@@ -1,0 +1,158 @@
+.sidebar-container {
+    width: 250px;
+    background-color: #000;
+    height: 100vh;
+    padding: 10px; /* Add padding around the container */
+    /*display: flex;*/
+    flex-direction: column;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+
+.sidebar-div-program {
+    margin-bottom: 5px;
+    padding: 10px;
+    border-bottom: 2px solid #383838;
+}
+
+.sidebar-div-program h1 {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+.icon-box {
+    margin-right: 10px; /* Add space between icon and text */
+  }
+
+.sidebar-div-program p {
+    color: lightgray;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.sidebar-div-links {
+    flex-grow: 1; /* Allow links to use remaining space */
+    font-family: 'Arial', Helvetica, sans-serif;
+    padding: 10px;
+    border-bottom: 2px solid #383838;
+    justify-content :space-between; 
+}
+
+.sidebar-link {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 9px;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+
+.sidebar-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fdb515;
+}
+
+.sidebar-link:hover::before,
+.sidebar-link.active::before {
+    content: '';
+    position: absolute;
+    right: -10px;
+    width: 9px;
+    height: 100%;
+    background-color:#fdb515
+}
+
+.sidebar-div-mygroup {
+    padding: 10px;
+    background-color: #000000; 
+    justify-content :space-between; 
+    border-bottom: 2px solid #383838;
+}
+  
+  .group-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+    padding: 5px;
+  }
+ 
+  .group-section p {
+    display:flex;
+    color: #FFFFFF;
+    padding: 5px 5px 0px 5px;
+  }
+  .group-icon {
+    font-size: 25px;
+  }
+
+  .mentor-section,
+  .mentee-buddy-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    font-size: 14px;
+  }
+  
+  .mentor-section > div,
+  .mentee-buddy-section > div {
+    margin-left: 15px;
+    color: #FFFFFF;
+  }
+  
+  .group-info-section {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    color: #FFFFFF;
+    flex-direction: column;
+    padding: 0px 0px 0px 10px;
+  }
+  .info {
+    display: flex; /* Add this line to enable flexbox */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    color: #FFFFFF;
+  }
+  #name,
+  #Degree {
+    margin: 0;
+    font-size: 10px;
+    color: #FFFFFF; 
+  }
+  
+  .arrow-icon {
+    margin-left: 15px;
+    font-size: 20px;
+    color: #FFFFFF; 
+  }
+
+  .misc {
+    font-size: 20px;
+    color: #FFFFFF;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .horizontal {
+    display: flex; /* Ensure flexbox is applied */
+    flex-direction: row; /* Align items horizontally */
+    align-items: center; /* Vertically center items */
+    margin-bottom: 10px; /* Space between rows */
+  }
+  
+  .horizontal p {
+    margin-left: 10px; /* Space between icon and text */
+    font-size: 13px;
+  }

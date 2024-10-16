@@ -1,0 +1,15 @@
+GO:
+
+    A Package is a collection of go source files, that reside in the same directory and have the same package at the top.
+    A module is the collection of packages
+    A go.mod will have multiple packages.
+
+MOONGODB:
+saiiluru24
+wEA5i1sFPqA91zh1
+
+
+Doubts:
+    what does go mod tidy does
+    What are keywords you learnt from this go code
+
